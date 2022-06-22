@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/games"
+        android:icon="@drawable/games"
+        android:title="Games" />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu"
+        android:title="Apps" />
+    <item
+        android:id="@+id/movies"
+        android:icon="@drawable/film"
+        android:title="Movies" />
+    <item
+        android:id="@+id/books"
+        android:icon="@drawable/book"
+        android:title="Books" />
+</menu>
