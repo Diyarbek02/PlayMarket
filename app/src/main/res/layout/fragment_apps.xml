@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.AppsFragment"
+    tools:context=".ItemApps.MainFragment"
     android:orientation="vertical">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_apps"
+        android:id="@+id/rv_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:listitem="@layout/recycler_view_2"
+        tools:listitem="@layout/recycler_view_app"
         tools:itemCount="5"
         app:layoutManager= "androidx.recyclerview.widget.LinearLayoutManager" />
 
